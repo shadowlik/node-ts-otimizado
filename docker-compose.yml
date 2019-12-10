@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  node-ts-otimizado:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: example-web-server
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "8080:8080"
+      - "8181:8181"
+    command: npm run dev
