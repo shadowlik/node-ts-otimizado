@@ -1,0 +1,26 @@
+{
+  "name": "node-ts-otimizado",
+  "version": "1.0.0",
+  "description": "Desenvolvimento otimizado em NodeJS com Typescript, Docker e ESlint",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowlik/node-ts-otimizado.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "docker",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Henrique Marques Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowlik/node-ts-otimizado/issues"
+  },
+  "homepage": "https://github.com/shadowlik/node-ts-otimizado#readme"
+}
