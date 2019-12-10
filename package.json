@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --fix ./src/*"
+    "lint": "eslint --fix ./src/*",
+    "dev": "ts-node-dev --respawn --transpileOnly src/index.ts",
+    "dev:debug": "ts-node-dev --inspect=8181 --respawn --transpileOnly src/index.ts"
   },
   "repository": {
     "type": "git",
